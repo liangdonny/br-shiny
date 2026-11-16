@@ -1,6 +1,6 @@
 # br-shiny
 
-R Shiny app for viewing and clustering copy number profiles from low-pass whole-genome sequencing.
+R Shiny app for viewing and clustering copy number profiles from low-pass whole-genome sequencing. This is a local version built for the Aqueous Humor Laboratory at Children's Hospital Los Angeles. It reimplements a copy number viewer developed at the USC Convergent Science Institute in Cancer and is not an official release of that tool.
 
 ## Requirements
 
@@ -27,4 +27,4 @@ The Windows launcher expects R at `C:\Program Files\R\R-4.6.0`. Edit the path in
 
 ## Acknowledgments
 
-Based on the copy number viewer developed by Rafael Nevarez and Will Kim at the USC Convergent Science Institute in Cancer.
+The interface and the copy number plotting method are adapted from the viewer developed by Rafael Nevarez and Will Kim at the USC Convergent Science Institute in Cancer, including their `cnv_plot_generation_5k.r` script.
